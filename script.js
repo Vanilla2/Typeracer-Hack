@@ -6,7 +6,7 @@ var element = document.getElementsByClassName("txtInput")[0];
 var nodes = document.getElementsByClassName("inputPanel")[0].childNodes;
 console.log(nodes[0].innerText);
 
-input.select(); // you can also use input.focus()
+input.select();
 input.value=""; 
  
 var text = nodes[0].innerText;
